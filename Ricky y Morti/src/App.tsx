@@ -1,6 +1,7 @@
+import "./style/grid.css";
 import { useCharacters } from './hooks/useCharacters';
 import CharacterCard from './componentes/characterCard';
-import './style/grid.css';
+
 function App() {
   const { characters, loading } = useCharacters();
 
